@@ -10,33 +10,34 @@ export default function Topbar() {
       </div>
       <div className='topbarCenter'>
         <div className='searchbar'>
-          <Search />
+          <Search className='searchIcon' />
           <input
             placeholder='Search for friends, posts or video'
             className='searchInput'
           />
         </div>
       </div>
-      <div className='topbarRight'></div>
-      <div class='topbarLinks'>
-        <span class='topBarLink'>Homepage</span>
-        <span class='topBarLink'>Timeline</span>
+      <div className='topbarRight'>
+        <div class='topbarLinks'>
+          <span class='topBarLink'>Homepage</span>
+          <span class='topBarLink'>Timeline</span>
+        </div>
+        <div class='topbarIcon'>
+          <div class='topbarIconItem'>
+            <Person />
+            <span class='topbarIconBadge'>1</span>
+          </div>
+          <div class='topbarIconItem'>
+            <Chat />
+            <span class='topbarIconBadge'>2</span>
+          </div>
+          <div class='topbarIconItem'>
+            <Notifications />
+            <span class='topbarIconBadge'>1</span>
+          </div>
+        </div>
       </div>
-      <div class='topbarIcon'>
-        <div class='topbarIconItem'>
-          <Person />
-          <span class='topbarIconBadge'>1</span>
-        </div>
-        <div class='topbarIconItem'>
-          <Chat />
-          <span class='topbarIconBadge'>2</span>
-        </div>
-        <div class='topbarIconItem'>
-          <Notifications />
-          <span class='topbarIconBadge'>1</span>
-        </div>
-      </div>
-      <img src='/images/profile.jpg' alt='' class='topbarImage' />
+      <img src='/images/profile.jpg' alt='' class='topbarImg' />
     </div>
   );
 }
