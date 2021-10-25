@@ -12,7 +12,7 @@ export default function Post( {post} ) {
                      <div className="postTopLeft">
                          <img className='postProfileImg' src="/images/ace.jpeg" alt="" />
                          <span className="postUsername">Ace Navarro</span>
-                         <span className="postDate"> 4 days ago </span>
+                         <span className="postDate"> 5 days ago</span>
                      </div>
                      <div className="postTopRight">
                          <MoreVert />
