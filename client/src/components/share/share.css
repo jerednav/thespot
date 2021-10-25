@@ -1,0 +1,11 @@
+.share {
+    width: 100%;
+    height: 170px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+.shareProfileImg {
+    width: 32px;
+    height: 32px;
+}
