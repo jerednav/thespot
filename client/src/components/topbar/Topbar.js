@@ -18,26 +18,26 @@ export default function Topbar() {
         </div>
       </div>
       <div className='topbarRight'>
-        <div class='topbarLinks'>
-          <span class='topBarLink'>Homepage</span>
-          <span class='topBarLink'>Timeline</span>
+        <div className='topbarLinks'>
+          <span className='topBarLink'>Homepage</span>
+          <span className='topBarLink'>Timeline</span>
         </div>
-        <div class='topbarIcon'>
-          <div class='topbarIconItem'>
+        <div className='topbarIcon'>
+          <div className='topbarIconItem'>
             <Person />
-            <span class='topbarIconBadge'>1</span>
+            <span className='topbarIconBadge'>1</span>
           </div>
-          <div class='topbarIconItem'>
+          <div className='topbarIconItem'>
             <Chat />
-            <span class='topbarIconBadge'>2</span>
+            <span className='topbarIconBadge'>2</span>
           </div>
-          <div class='topbarIconItem'>
+          <div className='topbarIconItem'>
             <Notifications />
-            <span class='topbarIconBadge'>1</span>
+            <span className='topbarIconBadge'>1</span>
           </div>
         </div>
       </div>
-      <img src='/images/profile.jpg' alt='' class='topbarImg' />
+      <img src='/images/profile.jpg' alt='' className='topbarImg' />
     </div>
   );
 }
